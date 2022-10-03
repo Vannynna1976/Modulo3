@@ -1,0 +1,59 @@
+/**-- Fuentes para la pagina en gral--*/
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Alumni+Sans+Collegiate+One&family=Dosis:wght@300&display=swap');
+
+*{
+    font-family: 'Dosis', sans-serif;
+        
+}
+
+/*-- Estilo del body--*/
+body{
+    background: linear-gradient(90deg, rgba(249,255,255,1) 30%, rgba(215,240,254,1) 50%, rgba(192,226,255,1) 81%);
+}
+
+
+/*-- Para mover las columnas--*/
+.col-6.mt-9{
+    margin-top: 8rem;
+}
+
+
+.col-3.mt-9{
+    margin-top: 18rem;
+}
+
+#Inforesumen{
+    margin-top: -10rem;
+}
+
+.tituloseccion{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+.fa-solid.fa-pen{
+    display: none;
+}
+
+
+
+/*-- Estilo de las card de experiencia--*/
+.card.mb-3{
+    background: none;
+    border: none;
+    margin-left: 4rem;
+}
+
+.col-md-3{
+    text-align: left;
+}
+
+/*-- Estilo del los iconos de la navbar--*/
+.list-group-item{
+    background-color: transparent;
+    border: none;
+}

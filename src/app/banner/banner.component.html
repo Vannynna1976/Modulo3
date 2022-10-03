@@ -1,0 +1,50 @@
+
+
+<!-- Inicio Encabezado-->
+<div id="banner">
+  <div class="card" >
+    <div class="card-body">
+      <img [src] ="fotoperfil" class="rounded-circle" width= 250rem alt="VaninaDev">
+        <button type="button" class="btn btn-transparent">
+            <i class="fa-solid fa-pen" data-bs-toggle="modal" data-bs-target="#fotoperfil"></i>
+        </button>
+        <app-fotoperfil></app-fotoperfil>
+
+      <div>
+        <h3 class="fw-normal">
+        <b>{{nombre}} {{apellido}}</b>
+          <button type="button" class="btn btn-transparent">
+            <i class="fa-solid fa-pen" data-bs-toggle="modal" data-bs-target="#NombreApellidoModal"></i>
+          </button>
+        </h3>
+      </div>
+      <app-nomusuario></app-nomusuario>
+
+      <div>
+        <h4>
+        {{Titulo}}
+          <button type="button" class="btn btn-transparent">
+            <i class="fa-solid fa-pen" data-bs-toggle="modal" data-bs-target="#TituloModal"></i>
+          </button>
+        </h4>
+      </div>
+      <app-titulo></app-titulo>
+    <div>
+      <p>
+        <strong>{{Info}}</strong>
+        <button type="button" class="btn btn-transparent">
+          <i class="fa-solid fa-pen" data-bs-toggle="modal" data-bs-target="#InfoModal"></i>
+        </button>
+        <!--<button type="button" class="btn btn-transparent">
+          <i class="fa-solid fa-trash-can"></i>
+        </button>-->
+      </p>
+    </div>  
+      <app-info></app-info>
+
+    </div>
+  </div>
+        
+</div><!--Fin Encabezado-->
+
+<app-fotoperfil></app-fotoperfil>

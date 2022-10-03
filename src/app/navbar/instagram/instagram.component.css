@@ -1,0 +1,8 @@
+.fa-brands.fa-instagram.fa-2xl{
+    color: red
+}
+
+/*-- Cambia el color del icono al acercarce--*/
+.fa-brands.fa-instagram.fa-2xl:hover{
+    color: black
+}

@@ -1,0 +1,12 @@
+/*-- Estilo de los bordes de Hardsoft--*/
+#HardSoft{
+    border-top-style: solid;
+    border-width: 1px;
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+#labelHSS{
+    text-align: left;
+}
+

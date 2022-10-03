@@ -1,0 +1,127 @@
+
+{
+    "fotoperfil": "assets/img/20180224_190159.png",
+    "nombre": "Vanina", 
+    "apellido": "Robledo",
+    "Titulo": "Full Stack Developer Jr.",
+    "Info": "Soy una persona multitasking, experiencia obtenida no tanto en lo profesional, sino como madre 2 Experta en tareas administrativas por 25 años de experiencia en el rubro lo que me permite ser un excelente nexo con los usuarios. Siempre me gusto la docencia por lo que el trabajo en equipo y en colaboración me resulta una tarea muy comoda.",
+    
+    "Laboral": [
+        {
+            "id": 1,
+            "imagen": "assets/img/EYSE-removebg-preview.png",
+            "puesto": "ADMINISTRACION",
+            "fechadesde": "Marzo de 1997",
+            "fechahasta": "Actualidad",
+            "descriptrabajo": "Realice tareas de generación de pedidos de trabajos, cotizaciones, generación de planillas varias. Atención al cliente. Actualmente me encargo de la generación de contratos para los diversos clientes. Me encargaba de la generación manual y por proceso de la facturación del holding, coordinación telefónica de las cobranzas."
+        },
+
+        {
+            "id": 2,
+            "imagen": "assets/img/IPC-removebg-preview.png",
+            "puesto": "PROFESORA",
+            "fechadesde": "Febrero de 1994",
+            "fechahasta": "Diciembre de 1996",
+            "descriptrabajo": "Dicte clases a niños, jovenes y adultos"
+        }     
+
+    ],
+
+    "Educacion": [
+        {
+            "id": 1,
+            "imagen": "assets/img/EEUU.jpg",
+            "instituto": "ESCUELA NORMAL EE UU DE AMERICA",
+            "titulo": "BACHILLER CON ORIENTACION DOCENTE",
+            "fechadesde": "1989",
+            "fechahasta": "1993"            
+        },
+
+        {
+            "id": 2,
+            "imagen": "assets/img/descarga.png",
+            "instituto": "ARGENTINA PROGRAMA - #SePrograma",
+            "titulo": "Primer etapa para Desarrollador Web Full Stack Jr",
+            "fechadesde": "Febrero - 2022",
+            "fechahasta": "Abril - 2022"    
+        },  
+        
+        {
+            "id": 3,
+            "imagen": "assets/img/descarga.png",
+            "instituto": "ARGENTINA PROGRAMA - #YoPrograma",
+            "titulo": "Desarrollador Web Full Stack Jr",
+            "fechadesde": "Agosto - 2022",
+            "fechahasta": "Enero - 2023"    
+        }
+    ],
+    
+    "habilidades": [
+        {
+            "id": 1,
+            "habilidad": "Lenguaje Programacion",
+            "width": "80",
+            "color": "bg-primary"
+        },
+
+        {
+            "id": 2,
+            "habilidad": "Bases de Datos",
+            "width": "90",
+            "color": "bg-success"
+        },
+
+        {
+            "id": 3,
+            "habilidad": "Ingles",
+            "width": "70",
+            "color": "bg-info"
+        },
+
+        {
+            "id": 4,
+            "habilidad": "Conocimiento de Softward Administrativo",
+            "width": "95",
+            "color": "bg-warning"
+        },   
+
+        {
+            "id": 5,
+            "habilidad": "Trabajo En Equipo",
+            "width": "98",
+            "color": "bg-danger"
+        }, 
+
+        {
+            "id": 6,
+            "habilidad": "Creatividad",
+            "width": "79",
+            "color": "bg-secondary"
+        }, 
+      
+        {
+            "id": 7,
+            "habilidad": "Habilitades Comunicativas",
+            "width": "75",
+            "color": "bg-dark"
+        }
+        
+    ],
+
+    "Proyectos": [
+        {
+            "id": 1,
+            "imagen": "assets/img/WhatsApp Image 2022-08-19 at 3.16.43 PM.jpeg",
+            "cliente": "MAMINNA TIENDA",
+            "descripcion": "Desarrollo de una tienda online para venta de productos y productos digitales."
+        },
+
+        {
+            "id": 2,
+            "imagen": "assets/img/BP.png",
+            "cliente": "BRAULIO PROPIEDADES",
+            "descripcion": "Desarrollo de una pagina para poder visualizar las propiedades disponibles, sus caracteristicas y precio. Con un formulario que permita contactarse con la inmobiliaria"
+        }
+    ]
+
+}

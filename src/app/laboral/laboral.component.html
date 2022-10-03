@@ -1,0 +1,32 @@
+<!--Inicio seccion Experencia Laboral-->
+<section id="Experiencia">
+    <div class="container mb-4"> 
+      <div class="row">
+        <h4 class="tituloseccion"><b>Experiencia</b></h4>
+      </div>
+    </div>
+  <!--Inicio EYSE-->
+    <div class="card mb-3" Id="cardexperiencia" *ngFor="let laboral of mislaborales">
+      <div class="row g-0">
+        <div class="col-3">
+          <img [src]= "laboral.imagen" class="img-fluid rounded-start" width="150rem" alt="EYSEDev">
+        </div>
+        <div class="col-8">
+          <div class="card-body">
+            <h5 class="card-title"><b>{{laboral.puesto}}</b></h5>
+            <h6><b>{{laboral.fechadesde}} – {{laboral.fechahasta}}</b></h6>
+            <p>{{laboral.descriptrabajo}}</p>
+          </div>
+        </div>
+        <div class = "col-1">
+          <button type="button" class="btn btn-transparent"><i id ="lapized4" class="fa-solid fa-pen" data-bs-toggle="modal" data-bs-target="#ExpModal"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--Fin EYSE-->
+
+  </section>
+  <!--Fin experencia laboral-->
+
+  <app-modlaboral></app-modlaboral>

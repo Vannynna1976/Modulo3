@@ -1,0 +1,32 @@
+<!--Comienzo Proyecto-->
+<section id="Proyecto">
+    <div class="container mb-4"> 
+      <div class="row mt-3">
+        <h4 class="tituloseccion"><b>Proyectos Futuros</b></h4>
+        <h4></h4>      
+    </div>
+</div>      
+        <div class="card mb-3" Id="cardProyectos" *ngFor="let proyecto of misproyectos">
+          <div class="row g-0">
+            <div class="col-md-3">
+              <img [src] = "proyecto.imagen" class="img-fluid rounded-start" width="100rem" alt="">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <h5><b>{{proyecto.cliente}}</b></h5>
+                <h6>{{proyecto.descripcion}}</h6>     
+              </div>
+            </div>
+            <div class = "col-md-1">
+              <button type="button" class="btn btn-transparent">
+                <i id ="lapized9" class="fa-solid fa-pen" data-bs-toggle="modal" data-bs-target="#ProyModal"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+  
+</section>
+  <!--Fin Proyectos-->
+
+  <app-modproyectos></app-modproyectos>
